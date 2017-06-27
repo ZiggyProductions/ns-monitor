@@ -1,0 +1,22 @@
+{
+  "name": "@netshards/ns-monitor",
+  "version": "1.0.0",
+  "description": "NetShards monitoring module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZiggyProductions/ns-monitor.git"
+  },
+  "keywords": [
+    "netshards"
+  ],
+  "author": "Gevorg Aznauryan aka GAZ <gazilius@gmail.com> (http://ziggy.productions/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZiggyProductions/ns-monitor/issues"
+  },
+  "homepage": "https://github.com/ZiggyProductions/ns-monitor#readme"
+}
