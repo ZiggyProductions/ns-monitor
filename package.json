@@ -4,7 +4,7 @@
   "description": "NetShards monitoring module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "make test"
   },
   "repository": {
     "type": "git",
@@ -14,9 +14,17 @@
     "netshards"
   ],
   "author": "Gevorg Aznauryan aka GAZ <gazilius@gmail.com> (http://ziggy.productions/)",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/ZiggyProductions/ns-monitor/issues"
   },
-  "homepage": "https://github.com/ZiggyProductions/ns-monitor#readme"
+  "homepage": "https://github.com/ZiggyProductions/ns-monitor#readme",
+  "devDependencies": {
+    "better-assert": "^1.0.2",
+    "expect.js": "^0.3.1",
+    "express": "^4.15.3",
+    "mocha": "^3.4.2",
+    "socket.io": "^2.0.3",
+    "socket.io-client": "^2.0.3"
+  }
 }
