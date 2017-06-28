@@ -9,10 +9,12 @@
  */
 
 var clients = {};
+var hosts = {};
 
 exports.client = client;
 exports.server = server;
 exports.clients = clients;
+exports.hosts = hosts;
 
 function client(options){
     if (typeof options !== 'object') {
@@ -58,6 +60,11 @@ function server(options){
             clients[socket.id].meta = data;
             clients[socket.id].meta.socket_id = socket.id;
             cb('done');
+        });
+        socket.on('host-data', (data) => {
+            if(!hosts[data.hostname])
+                hosts[data.hostname] = {};
+            hosts[data.hostname] = data;
         });
     });
 
