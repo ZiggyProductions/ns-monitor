@@ -1,6 +1,6 @@
 {
   "name": "@netshards/ns-monitor",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "NetShards monitoring module",
   "main": "index.js",
   "scripts": {
@@ -30,6 +30,4 @@
     "socket.io": "^2.0.3",
     "socket.io-client": "^2.0.3"
   }
-
-
 }
