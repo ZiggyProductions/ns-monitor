@@ -25,5 +25,11 @@
     "mocha": "^3.4.2",
     "socket.io": "^2.0.3",
     "socket.io-client": "^2.0.3"
+  },
+  "dependencies": {
+    "socket.io": "^2.0.3",
+    "socket.io-client": "^2.0.3"
   }
+
+
 }
