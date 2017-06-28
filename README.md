@@ -21,7 +21,7 @@ var options = {
     port: 9999,
     namespace: '/netshards'
 };
-var server = require(@netshards/ns-monitor).server(server_options);
+var server = require(@netshards/ns-monitor).server(options);
 ```
 
 #### Client
@@ -34,7 +34,7 @@ var options = {
     namespace: '/netshards',
     meta: {key:'value'}
 };
-var client = require(@netshards/ns-monitor).client(client_options);
+var client = require(@netshards/ns-monitor).client(options);
 ```
 
 ### Tests
