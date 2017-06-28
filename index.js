@@ -56,6 +56,7 @@ function server(options){
         });
         socket.on('meta', (data, cb) => {
             clients[socket.id].meta = data;
+            clients[socket.id].meta.socket_id = socket.id;
             cb('done');
         });
     });
